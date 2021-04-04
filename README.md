@@ -53,7 +53,7 @@ out for something else on your own.
 
 - [Webpack](https://webpack.js.org/)
 - [TailwindCSS](https://tailwindcss.com/)
-- [Heroicons](https://heroicons.dev/)
+- [Heroicons](https://heroicons.com/)
 
 #### But what about JavaScript?!
 
