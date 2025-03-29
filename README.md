@@ -4,8 +4,6 @@ Esta la referencia del curso de Backend Python de Jonathan Rincon en EBAC
 =======
 # An example Django + Docker app
 
-![CI](https://github.com/nickjj/docker-django-example/workflows/CI/badge.svg?branch=main)
-
 You could use this example app as a base for your new project or as a guide to
 Dockerize your existing Django app.
 
