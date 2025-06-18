@@ -1,0 +1,21 @@
+{% include 'ecommerce/messages.html' %}
+
+<div class="product-detail">
+  <h1 class="product-title">{{ product.title }}</h1>
+  <div class="product-meta">
+    <p class="price"><strong>Precio:</strong> ${{ product.price }}</p>
+    <p><strong>Descripción:</strong> {{ product.description }}</p>
+    <p><strong>Vendedor:</strong> {{ product.seller }}</p>
+    <p><strong>Color:</strong> {{ product.color }}</p>
+    <p><strong>Dimensiones:</strong> {{ product.product_dimensions }}</p>
+  </div>
+
+  <div class="product-actions">
+    <a href="/ecommerce/{{ product.id }}/edit" class="btn btn-primary">Editar</a>
+    <a href="/ecommerce/{{ product.id }}/delete" class="btn btn-danger">Eliminar</a>
+  </div>
+
+  <div class="back-link">
+    <a href="/ecommerce/">← Volver al listado</a>
+  </div>
+</div>
