@@ -1,0 +1,1787 @@
+[
+{
+    "model": "ecommerce.product",
+    "pk": 1,
+    "fields": {
+        "state": "PU",
+        "timestamp": "2025-06-20T18:23:08.096Z",
+        "updated": "2025-06-20T18:23:08.102Z",
+        "publish_timestamp": null,
+        "title": "Susuki 2.0",
+        "price": 500.0,
+        "description": "moto susuki",
+        "seller": "Yamaha",
+        "color": "Roja",
+        "product_dimensions": "58 * 25 *36",
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 2,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:23:08.096Z",
+        "updated": "2025-06-20T18:23:08.102Z",
+        "publish_timestamp": null,
+        "title": "FZ",
+        "price": 245.0,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 3,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:23:08.096Z",
+        "updated": "2025-06-20T18:23:08.102Z",
+        "publish_timestamp": null,
+        "title": "Honda",
+        "price": 12.0,
+        "description": "",
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 4,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 0",
+        "price": 99.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 5,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 1",
+        "price": 199.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 6,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 2",
+        "price": 299.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 7,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 3",
+        "price": 399.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 8,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 4",
+        "price": 499.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 9,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 5",
+        "price": 599.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 10,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 6",
+        "price": 699.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 11,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 7",
+        "price": 799.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 12,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 8",
+        "price": 899.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 13,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 9",
+        "price": 999.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 14,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 10",
+        "price": 1099.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 15,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 11",
+        "price": 1199.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 16,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 12",
+        "price": 1299.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 17,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 13",
+        "price": 1399.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 18,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 14",
+        "price": 1499.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 19,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 15",
+        "price": 1599.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 20,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 16",
+        "price": 1699.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 21,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 17",
+        "price": 1799.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 22,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 18",
+        "price": 1899.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 23,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 19",
+        "price": 1999.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 24,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 20",
+        "price": 2099.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 25,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 21",
+        "price": 2199.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 26,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 22",
+        "price": 2299.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 27,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 23",
+        "price": 2399.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 28,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 24",
+        "price": 2499.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 29,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 25",
+        "price": 2599.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 30,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 26",
+        "price": 2699.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 31,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 27",
+        "price": 2799.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 32,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 28",
+        "price": 2899.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 33,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 29",
+        "price": 2999.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 34,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 30",
+        "price": 3099.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 35,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 31",
+        "price": 3199.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 36,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 32",
+        "price": 3299.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 37,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 33",
+        "price": 3399.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 38,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 34",
+        "price": 3499.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 39,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 35",
+        "price": 3599.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 40,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 36",
+        "price": 3699.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 41,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 37",
+        "price": 3799.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 42,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 38",
+        "price": 3899.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 43,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 39",
+        "price": 3999.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 44,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 40",
+        "price": 4099.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 45,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 41",
+        "price": 4199.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 46,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 42",
+        "price": 4299.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 47,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 43",
+        "price": 4399.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 48,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 44",
+        "price": 4499.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 49,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 45",
+        "price": 4599.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 50,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 46",
+        "price": 4699.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 51,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 47",
+        "price": 4799.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 52,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 48",
+        "price": 4899.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 53,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 49",
+        "price": 4999.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 54,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 50",
+        "price": 5099.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 55,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 51",
+        "price": 5199.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 56,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 52",
+        "price": 5299.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 57,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 53",
+        "price": 5399.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 58,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 54",
+        "price": 5499.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 59,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 55",
+        "price": 5599.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 60,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 56",
+        "price": 5699.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 61,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 57",
+        "price": 5799.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 62,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 58",
+        "price": 5899.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 63,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 59",
+        "price": 5999.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 64,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 60",
+        "price": 6099.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 65,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 61",
+        "price": 6199.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 66,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 62",
+        "price": 6299.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 67,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 63",
+        "price": 6399.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 68,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 64",
+        "price": 6499.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 69,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 65",
+        "price": 6599.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 70,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.588Z",
+        "publish_timestamp": null,
+        "title": "producto 66",
+        "price": 6699.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 71,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.588Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 67",
+        "price": 6799.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 72,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 68",
+        "price": 6899.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 73,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 69",
+        "price": 6999.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 74,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 70",
+        "price": 7099.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 75,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 71",
+        "price": 7199.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 76,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 72",
+        "price": 7299.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 77,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 73",
+        "price": 7399.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 78,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 74",
+        "price": 7499.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 79,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 75",
+        "price": 7599.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 80,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 76",
+        "price": 7699.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 81,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 77",
+        "price": 7799.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 82,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 78",
+        "price": 7899.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 83,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 79",
+        "price": 7999.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 84,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 80",
+        "price": 8099.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 85,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 81",
+        "price": 8199.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 86,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 82",
+        "price": 8299.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 87,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 83",
+        "price": 8399.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 88,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 84",
+        "price": 8499.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 89,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 85",
+        "price": 8599.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 90,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 86",
+        "price": 8699.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 91,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 87",
+        "price": 8799.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 92,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 88",
+        "price": 8899.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 93,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 89",
+        "price": 8999.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 94,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 90",
+        "price": 9099.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 95,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 91",
+        "price": 9199.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 96,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 92",
+        "price": 9299.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 97,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 93",
+        "price": 9399.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 98,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 94",
+        "price": 9499.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 99,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 95",
+        "price": 9599.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 100,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 96",
+        "price": 9699.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 101,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 97",
+        "price": 9799.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 102,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 98",
+        "price": 9899.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 103,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-20T18:51:22.589Z",
+        "updated": "2025-06-20T18:51:22.589Z",
+        "publish_timestamp": null,
+        "title": "producto 99",
+        "price": 9999.9,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 104,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-21T04:41:02.995Z",
+        "updated": "2025-06-21T04:41:02.995Z",
+        "publish_timestamp": null,
+        "title": "Producto test slug",
+        "price": 175.0,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": "producto-test-slug"
+    }
+},
+{
+    "model": "ecommerce.product",
+    "pk": 105,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-06-21T04:43:00.542Z",
+        "updated": "2025-06-21T04:43:00.542Z",
+        "publish_timestamp": null,
+        "title": "Producto test slug",
+        "price": 185.0,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": "producto-test-slug-1"
+    }
+}
+]
