@@ -1,0 +1,13 @@
+{% if title %}
+    <h1>{{ title }}</h1>
+{% else %}
+    <h1>Product Detail</h1>
+{% endif %}
+{{ object.title }}<br>
+{{ object.slug }}<br>
+{{ object.pk }}<br>
+{{ object.price }}<br>
+
+{% if form %}
+    {% include 'forms.html' with form=form delete_url=object.get_delete_url %}
+{% endif %}
