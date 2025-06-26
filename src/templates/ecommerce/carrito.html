@@ -1,0 +1,13 @@
+<h1>Carrito de compras</h1>
+<ul>
+  {% for item in items %}
+    <li>
+      {{ item.producto.title }} – Cantidad: {{ item.cantidad }} – Subtotal: ${{ item.subtotal }}
+      <a href="{% url 'eliminar_del_carrito' item.producto.id %}">Eliminar</a>
+    </li>
+  {% endfor %}
+</ul>
+<p><strong>Total:</strong> ${{ total }}</p>
+<a href="{% url 'procesar_pedido' %}">Finalizar pedido</a>
+<p>
+  <a href="{% url 'home' %}">Volver a la página principal</a>

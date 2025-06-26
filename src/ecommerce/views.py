@@ -97,3 +97,43 @@ def login_required_view(request):
    else:
         template = 'ecommerce/list-view-public.html'
    return render(request, template, context)
+
+#------------------------------------------ Practica 55:
+def agregar_al_carrito(request, product_id):
+    carrito = request.session.get('carrito', {})
+    carrito[str(product_id)] = carrito.get(str(product_id), 0) + 1
+    request.session['carrito'] = carrito
+    messages.success(request, 'Producto agregado al carrito')
+    return HttpResponseRedirect('/ecommerce/carrito/')
+
+def ver_carrito(request):
+    carrito = request.session.get('carrito', {})
+    items = []
+    total = 0
+    for product_id, cantidad in carrito.items():
+        producto = get_object_or_404(Product, id=product_id)
+        subtotal = producto.price * cantidad
+        total += subtotal
+        items.append({
+            'producto': producto,
+            'cantidad': cantidad,
+            'subtotal': subtotal
+        })
+    context = {
+        'items': items,
+        'total': total
+    }
+    return render(request, 'ecommerce/carrito.html', context)
+
+def eliminar_del_carrito(request, product_id):
+    carrito = request.session.get('carrito', {})
+    if str(product_id) in carrito:
+        del carrito[str(product_id)]
+    request.session['carrito'] = carrito
+    messages.warning(request, 'Producto eliminado del carrito')
+    return HttpResponseRedirect('/ecommerce/carrito/')
+
+def procesar_pedido(request):
+    request.session['carrito'] = {}
+    messages.success(request, '¡Pedido procesado con éxito!')
+    return render(request, 'ecommerce/pedido_exitoso.html')

@@ -1,13 +1,20 @@
 {% include "ecommerce/search.html" %}
-{% include 'ecommerce/messages.html'%}
+{% include 'ecommerce/messages.html' %}
 <h1>Vista del listado</h1>
 
-{% for product in products %}
-  <li>
-    <!-- {{product.title}} {{product.price}} -->
-    <a href="/ecommerce/{{product.id}}">{{product.title}}</a>
- </li>
-{% endfor %}
+<ul>
+  {% for product in products %}
+    <li>
+      <strong>{{ product.title }}</strong> — ${{ product.price }}
+      <a href="/ecommerce/{{ product.id }}">Ver detalles</a> |
+      <a href="{% url 'agregar_al_carrito' product.id %}">🛒 Agregar al carrito</a>
+    </li>
+  {% endfor %}
+</ul>
+
 <p>
   <a href="/ecommerce/create">Crear un nuevo producto</a>
+</p>
+<p>
+  <a href="{% url 'ver_carrito' %}"> Ver carrito</a>
 </p>

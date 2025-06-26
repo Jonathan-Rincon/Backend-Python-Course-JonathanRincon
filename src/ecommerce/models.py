@@ -11,7 +11,7 @@ from django.conf import settings
 User = settings.AUTH_USER_MODEL
 
 
-class Product(BasePublishModel):
+class Product(BasePublishModel):    
 
     title = models.TextField()
     price = models.FloatField()
