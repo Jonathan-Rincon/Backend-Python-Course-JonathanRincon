@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row">
+    <div class="col-12">
+        <h1>Ventas</h1>
+        <p>Bienvenido a la página de análisis de ventas.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <h2>Recientes</h2>
+        <ol>
+            {% for order in recent_orders %}
+                <li>
+                    {{order.order_id}}
+                    {{order.total}}
+                    {{order.updated}}
+                </li>
+            {% empty %}
+                <li>No hay pedidos recientes.</li>
+            {% endfor %}
+        </ol>
+    </div>
+    <div class="col">
+        <h2>Enviadas</h2>
+        <ol>
+            {% for order in shipped_orders %}
+                <li>
+                    {{order.order_id}}
+                    {{order.total}}
+                    {{order.updated}}
+                </li>
+            {% empty %}
+                <li>No hay pedidos enviados.</li>
+            {% endfor %}
+        </ol>
+    </div>
+    <div class="col">
+        <h2>Pagadas</h2>
+        <ol>
+            {% for order in paid_orders %}
+                <li>
+                    {{order.order_id}}
+                    {{order.total}}
+                    {{order.updated}}
+                </li>
+            {% empty %}
+                <li>No hay pedidos pagados.</li>
+            {% endfor %}
+        </ol>
+    </div>
+</div>
+{% endblock %}

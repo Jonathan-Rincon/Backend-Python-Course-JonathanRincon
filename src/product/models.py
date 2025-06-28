@@ -36,6 +36,9 @@ class Product(models.Model):
     def get_delete_url(self):
         return f"/product/my-products/{self.slug}/delete/"  
     
+    def __str__(self):
+        return self.title
+    
 class DigitalProduct(Product):
     class Meta:
         proxy = True

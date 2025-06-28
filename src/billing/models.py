@@ -8,7 +8,7 @@ from accounts.models import GuestEmail
 User = settings.AUTH_USER_MODEL
 
 class BillingProfile(models.Model):
-    user = models.OneToOneField(User, null=True, blank=True)
+    user = models.OneToOneField(User, null=True, blank=True, on_delete=models.CASCADE)
     email = models.EmailField()
     active = models.BooleanField(default=True)
     updated = models.DateTimeField(auto_now=True)
