@@ -34,8 +34,11 @@ ALLOWED_HOSTS = list(map(str.strip, allowed_hosts.split(",")))
 
 LOGIN_URL ='/admin/login/'
 # Application definitions
+AUTH_USER_MODEL = 'accounts.User'
+
 INSTALLED_APPS = [
     "pages.apps.PagesConfig",
+    "forms_test.apps.FormsTestConfig", #<---------------
     "ecommerce.apps.EcommerceConfig",
     "product.apps.ProductConfig",
     "base.apps.BaseConfig",

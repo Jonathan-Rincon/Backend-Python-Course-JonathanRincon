@@ -24,7 +24,9 @@ urlpatterns = [
     path("", include("pages.urls")),
     path("ecommerce/", include("ecommerce.urls")), #<---------------------
     path("product/", include("product.urls")),
-     path("analytics/", include("analytics.urls")),
+    path('forms/', include('forms_test.urls')),
+    path('register/', include('accounts.urls')),
+    path("analytics/", include("analytics.urls")),
     path("admin/", admin.site.urls),
 ]
 if not settings.TESTING:
