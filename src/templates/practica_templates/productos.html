@@ -1,0 +1,25 @@
+
+{% extends 'practica_templates/base.html' %}
+
+{% block title %}Catálogo de Implementos{% endblock title %}
+
+{% block content %}
+    <h2>Catálogo de Implementos de Taekwondo</h2>
+    <ul>
+        {% for producto in productos %}
+            <li class="producto">
+                {{ forloop.counter }}. 
+                {{ producto.nombre|title }} - 
+                ${{ producto.precio|floatformat:2 }}
+
+                {% if forloop.counter|divisibleby:3 %}
+                    <span class="oferta">🔥 ¡Oferta especial!</span>
+                {% endif %}
+            </li>
+        {% empty %}
+            <li>No hay implementos disponibles en este momento.</li>
+        {% endfor %}
+    </ul>
+
+ {% include 'practica_templates/mensaje.html' with mensaje="¡Equípate como un campeón!" %}   
+{% endblock content %}

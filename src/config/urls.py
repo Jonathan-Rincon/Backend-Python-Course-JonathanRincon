@@ -22,9 +22,11 @@ from django.urls import include, path
 urlpatterns = [
     path("up/", include("up.urls")),
     path("", include("pages.urls")),
-    path("ecommerce/", include("ecommerce.urls")), #<---------------------
+    path("ecommerce/", include("ecommerce.urls")), 
     path("product/", include("product.urls")),
     path('forms/', include('forms_test.urls')),
+    path('test_templates/', include('test_templates.urls')),
+    path('practica_templates/', include('practica_templates.urls')),#<---------------------
     path('register/', include('accounts.urls')),
     path("analytics/", include("analytics.urls")),
     path("admin/", admin.site.urls),

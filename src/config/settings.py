@@ -38,7 +38,9 @@ AUTH_USER_MODEL = 'accounts.User'
 
 INSTALLED_APPS = [
     "pages.apps.PagesConfig",
-    "forms_test.apps.FormsTestConfig", #<---------------
+    "forms_test.apps.FormsTestConfig", 
+    "test_templates.apps.TestTemplatesConfig",
+    "practica_templates.apps.PracticaTemplatesConfig",#<---------------
     "ecommerce.apps.EcommerceConfig",
     "product.apps.ProductConfig",
     "base.apps.BaseConfig",
