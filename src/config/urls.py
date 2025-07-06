@@ -26,9 +26,11 @@ urlpatterns = [
     path("product/", include("product.urls")),
     path('forms/', include('forms_test.urls')),
     path('test_templates/', include('test_templates.urls')),
-    path('practica_templates/', include('practica_templates.urls')),#<---------------------
+    path('practica_templates/', include('practica_templates.urls')),
     path('register/', include('accounts.urls')),
     path("analytics/", include("analytics.urls")),
+    path("api/v1/", include("api.urls")),
+    path("api/v2/", include("accounts.urls")),#<---------------------
     path("admin/", admin.site.urls),
 ]
 if not settings.TESTING:
