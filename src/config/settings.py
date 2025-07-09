@@ -37,8 +37,10 @@ LOGIN_URL ='/admin/login/'
 AUTH_USER_MODEL = 'accounts.User'
 
 INSTALLED_APPS = [
+    "rest_framework",
     "pages.apps.PagesConfig",
-    "api.apps.ApiConfig",#<---------------
+    "rest_examples.apps.RestExamplesConfig",#<---------------
+    "api.apps.ApiConfig",
     "forms_test.apps.FormsTestConfig", 
     "test_templates.apps.TestTemplatesConfig",
     "practica_templates.apps.PracticaTemplatesConfig",
