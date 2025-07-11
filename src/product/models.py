@@ -27,6 +27,8 @@ class Product(models.Model):
     updated = models.DateTimeField(auto_now=True)
     timestamp = models.DateTimeField(auto_now_add=True)
 
+    created = models.DateTimeField(auto_now_add=True)
+
     def get_absolute_url(self):
         return f"/product/products/{self.slug}/"
 
