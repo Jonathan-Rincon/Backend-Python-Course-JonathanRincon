@@ -38,6 +38,9 @@ AUTH_USER_MODEL = 'accounts.User'
 
 INSTALLED_APPS = [
     "rest_framework",
+    "rest_framework.authtoken",
+    'rest_framework_simplejwt.token_blacklist',
+    "user_app.apps.UserAppConfig",
     "pages.apps.PagesConfig",
     "rest_examples.apps.RestExamplesConfig",#<---------------
     "api.apps.ApiConfig",
@@ -195,5 +198,22 @@ REST_FRAMEWORK = {
     'DEFAULT_RENDERER_CLASSES': [
         'rest_framework.renderers.JSONRenderer',
         #'rest_framework.renderers.BrowsableAPIRenderer',
+    ],
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        #'rest_framework.authentication.BasicAuthentication',
+        #'rest_framework.authentication.TokenAuthentication',
+        "rest_framework_simplejwt.authentication.JWTAuthentication",
+    ],
+    'DEFAULT_PERMISSION_CLASSES':[
+        'rest_framework.permissions.IsAuthenticated',
     ]
 }
+SIMPLE_JWT = {
+    "ROTATE_REFRESH_TOKENS":True,
+    'BLACKLIST_AFTER_ROTATION': True,
+
+}
+AUTHENTICATION_BACKENDS = [
+    'accounts.authentication.EmailBackend',  # ajuste según tu app
+    'django.contrib.auth.backends.ModelBackend',
+]

@@ -8,6 +8,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from .forms import ProductModelForm  # Asegúrate de importar tu formulario si lo vas a usar
 
 from rest_framework import generics
+from rest_framework.permissions import IsAuthenticated
 from .pagination import ProductPagination, ProductLOPagination, ProductCPagination
 from .serializers import ProductSerializer
 
@@ -92,6 +93,15 @@ class ProductListView(generics.ListAPIView):
     serializer_class = ProductSerializer
     #pagination_class = ProductPagination
     pagination_class = ProductLOPagination
+
+    permission_classes = [
+        IsAuthenticated
+    ]
+
+
+
+
+
 # def about_us_redirect_view(request):
 #     return HttpResponseRedirect("/about/")
 # def team_redirect_view(request):

@@ -31,7 +31,8 @@ urlpatterns = [
     path("analytics/", include("analytics.urls")),
     path("api/v1/", include("api.urls")),
     path("api/v2/", include("accounts.urls")),
-    path("api/v3/", include("rest_examples.urls")),#<---------------------
+    path("api/v3/", include("rest_examples.urls")),
+    path("account/", include("user_app.urls")),#<---------------------
     path("admin/", admin.site.urls),
 ]
 if not settings.TESTING:
